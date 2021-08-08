@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+    background: url(rsz_1pexels-hasan-albari-1229861.jpg);
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    /* border: 2px solid black; */
+    padding: 11px;
+    background-color: rgba(1, 38, 68, 0.6);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: -8px;
+    font-family: 'Baloo Bhai 2', cursive;
+    max-width: 100%;
+}
+
+ @media screen and (max-width: 800px) {
+    .header,.navbar,.body,.form,.butn,#form{
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+     }
+  } 
+
+.navbar{
+    direction: flex;
+    flex-direction: row;  
+   
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 23px;
+    color: rgb(229, 234, 241);
+    padding: 20px;
+    margin-left: -4px;
+   
+    
+
+}
+
+.right{
+    display: inline-block;  
+    margin-left: 950px;
+}
+
+
+
+header{
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 75%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+ .butn{
+  font-family: 'Baloo Bhai 2', cursive;
+    padding: 9px 55px;
+    border-radius: 23px;
+    width: 100%;
+    margin-top: 15px;
+    color: white;
+    background-color: rgb(32, 64, 90,0.5);
+    border-block-color: none;
+ }
+ .butt
+{
+    
+    /* margin-left: 632px; */
+    width: 100%;
+    margin-top: 0px;
+    padding: 0px 1365px 0px 7px;
+
+}
+.butn:hover{
+   background-color:rgba(24, 63, 99, 0.5)
+
+}
+
+.container{
+
+  font-family: 'Baloo Bhai 2', cursive;
+  
+  
+}
+input{
+  width: 100%;
+  
+}
+
+
+#form{
+  background: #344883c9;
+  width: 30%;
+  position: relative;
+  padding: 10px 48px;
+  margin-left: 573px;
+  color: honeydew;
+  margin-bottom: 0px;
+  border-radius: 5px;
+  margin-top: 133px;
+  
+}
+#but{
+  margin-top: 48px;
+  /* border: 2px solid black; */
+
+}
+.submit{
+  width: 100%;
+    /* border: 2px solid black; */
+    border-radius: 27px;
+    padding: 4px 12px;
+    font-family: 'Baloo Bhai 2', cursive;
+    border-collapse: collapse;
+    background-color: rgb(255 255 255);
+}
+.submit:active{
+  color: white;
+  background-color:rgba(63, 62, 62, 0.63);
+}
+
+.sumbit:hover{
+  background-color: antiquewhite;
+}
+label{
+  font-family: 'Baloo Bhai 2', cursive;
+}
+h1{
+  font-family: "Baloo Bhai 2", cursive;
+  padding: 25px 137px;
+}
+input[type=text1]{
+  background-image: url(icons8-username-48.png);
+  background-repeat: no-repeat;
+  background-position: 2px 6px;
+  background-size: 32px;
+  padding: 11px 4px 11px 35px;
+}
+input[type=password]{
+  background-image: url('icons8-sign-in-form-password-48.png');
+ 
+  background-repeat: no-repeat;
+  background-position: 2px 6px;
+  background-size: 32px;
+  padding: 11px 4px 11px 35px;
+
+}
+.icon1{
+  text-decoration: none;
+  margin-top: 70px;
+  padding: 17px 105px 17px 100px;
+}
+.icon1 img{
+  padding: 9px 11px;
+  width: 31%;
+}
+p1{
+  font-size: 13px;
+  font-family: 'Baloo Bhai 2';
+  margin-left: 56px;
+}
+.icon1 img:hover{
+  background-color: rgba(12, 112, 151, 0.651);
+}
+.signup{
+  font-family: 'Baloo Bhai 2';
+  margin-top: 52px;
+  margin-left: 161px;
+  font-size: 11px;
+  
+}
+.signup a{
+  text-decoration: none;
+  margin-left: 20px;
+}
